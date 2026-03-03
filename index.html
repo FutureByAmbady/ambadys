@@ -953,98 +953,125 @@
         </div>
     </div>
 </section>
-    <!-- Contact Section -->
-     <form id="contact-form" class="space-y-6">
-    <section id="contact" class="py-24 bg-primary relative overflow-hidden">
-        <div class="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-secondary/20 to-transparent pointer-events-none"></div>
-        
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 fade-in-up">
-            <div class="text-center mb-12">
-                <span class="text-accent text-sm font-semibold uppercase tracking-wider">Get In Touch</span>
-                <h2 class="text-3xl md:text-4xl font-display font-bold text-white mt-2">Let's Connect</h2>
-                <p class="mt-4 text-slate-400">Have a project in mind or want to discuss robotics? Drop me a message.</p>
-            </div>
 
-            <div class="glass-card p-8 md:p-12 rounded-2xl border border-white/10 shadow-2xl">
-               <form id="contact-form" class="space-y-6">
+
+   <!-- Contact Section -->
+<section id="contact" class="py-24 bg-primary relative overflow-hidden">
+    <div class="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-secondary/20 to-transparent pointer-events-none"></div>
     
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-        
-        <div>
-            <label for="name" class="block text-sm font-medium text-slate-400 mb-2">Name</label>
-            <input 
-                type="text" 
-                id="name" 
-                name="from_name"
-                required
-                class="w-full bg-primary/50 border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent transition-colors" 
-                placeholder="John Doe">
-        </div>
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 fade-in-up">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
+            
+            <!-- Left Side - Contact Info -->
+            <div class="space-y-8">
+                <div>
+                    <p class="text-highlight text-sm font-semibold uppercase tracking-wider mb-2">Get In Touch</p>
+                    <h2 class="text-4xl md:text-5xl font-display font-bold text-white leading-tight">
+                        Let's Create Something <span class="text-accent">Amazing</span>
+                    </h2>
+                    <p class="mt-4 text-slate-400 text-lg leading-relaxed">
+                        Ready to bring your robotics or AI project to life? Whether it's automation, computer vision, or embedded systems, I'm here to help.
+                    </p>
+                </div>
 
-        <div>
-            <label for="email" class="block text-sm font-medium text-slate-400 mb-2">Email</label>
-            <input 
-                type="email" 
-                id="email" 
-                name="from_email"
-                required
-                class="w-full bg-primary/50 border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent transition-colors" 
-                placeholder="john@example.com">
-        </div>
-
-    </div>
-
-    <div>
-        <label for="message" class="block text-sm font-medium text-slate-400 mb-2">Message</label>
-        <textarea 
-            id="message" 
-            name="message"
-            rows="4"
-            required
-            class="w-full bg-primary/50 border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent transition-colors" 
-            placeholder="Tell me about your project..."></textarea>
-    </div>
-
-    <div class="text-center">
-       <button 
-    id="send-btn"
-    type="submit" 
-    class="px-8 py-4 rounded-full bg-gradient-to-r from-accent to-highlight text-white font-medium hover:shadow-lg hover:shadow-accent/25 transition-all shadow-lg shadow-accent/25 w-full md:w-auto flex items-center justify-center gap-2">
-
-    <span id="btn-text">Send Message</span>
-    <span id="btn-loading" class="hidden animate-spin border-2 border-white border-t-transparent rounded-full w-5 h-5"></span>
-
-</button>
-<p id="success-message" class="hidden text-green-400 mt-4 text-center">
-✔ Message sent successfully!
-</p>
-
-<p id="error-message" class="hidden text-red-400 mt-4 text-center">
-✖ Failed to send message. Please try again.
-</p>
-    </div>
-
-</form>
-                    <a href="mailto:ambady.112s@gmail.com?subject=Portfolio%20Contact&body=Hello%20Ambady,%20I%20would%20like%20to%20connect%20with%20you." 
-                        class="hover:text-accent transition-colors flex items-center gap-2">
-                        <i class="fas fa-envelope"></i> ambady.112s@gmail.com
+                <div class="space-y-6">
+                    <a href="mailto:ambady.112s@gmail.com" 
+                        class="group flex items-center gap-4 p-4 rounded-xl bg-secondary/50 border border-white/5 hover:border-accent/50 transition-all">
+                        <div class="w-12 h-12 rounded-full bg-secondary flex items-center justify-center group-hover:bg-accent/20 transition-colors">
+                            <i class="fas fa-envelope text-accent group-hover:text-accent"></i>
+                        </div>
+                        <div>
+                            <p class="text-sm text-slate-400">Email</p>
+                            <p class="text-white font-medium">ambady.112s@gmail.com</p>
+                        </div>
                     </a>
-                     
-                    <a href="https://www.linkedin.com/in/ambady-s-112amb7012/" target="_blank" class="hover:text-[#0077b5] transition-colors flex items-center gap-2">
-                        <i class="fab fa-linkedin"></i> LinkedIn
+
+                    <a href="https://www.linkedin.com/in/ambady-s-112amb7012/" target="_blank" 
+                        class="group flex items-center gap-4 p-4 rounded-xl bg-secondary/50 border border-white/5 hover:border-accent/50 transition-all">
+                        <div class="w-12 h-12 rounded-full bg-secondary flex items-center justify-center group-hover:bg-accent/20 transition-colors">
+                            <i class="fab fa-linkedin text-accent group-hover:text-accent"></i>
+                        </div>
+                        <div>
+                            <p class="text-sm text-slate-400">LinkedIn</p>
+                            <p class="text-white font-medium">Connect with me</p>
+                        </div>
                     </a>
-                    <a href="https://github.com/FutureByAmbady" target="_blank" class="hover:text-white transition-colors flex items-center gap-2">
-                        <i class="fab fa-github"></i> GitHub
+
+                    <a href="https://github.com/FutureByAmbady" target="_blank" 
+                        class="group flex items-center gap-4 p-4 rounded-xl bg-secondary/50 border border-white/5 hover:border-accent/50 transition-all">
+                        <div class="w-12 h-12 rounded-full bg-secondary flex items-center justify-center group-hover:bg-accent/20 transition-colors">
+                            <i class="fab fa-github text-accent group-hover:text-accent"></i>
+                        </div>
+                        <div>
+                            <p class="text-sm text-slate-400">GitHub</p>
+                            <p class="text-white font-medium">View my code</p>
+                        </div>
                     </a>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Footer -->
-    <footer class="py-8 bg-primary border-t border-white/5 text-center">
-        <p class="text-slate-500 text-sm">© 2025 Ambady S. All rights reserved.</p>
-    </footer>
+            <!-- Right Side - Contact Form -->
+            <div class="glass-card p-8 md:p-10 rounded-2xl border border-white/10 shadow-2xl">
+                <form id="contact-form" class="space-y-6">
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-slate-400 mb-2">Name</label>
+                        <input 
+                            type="text" 
+                            id="name" 
+                            name="from_name"
+                            required
+                            class="w-full bg-primary/50 border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent transition-colors" 
+                            placeholder="John Doe">
+                    </div>
+
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-slate-400 mb-2">Email</label>
+                        <input 
+                            type="email" 
+                            id="email" 
+                            name="from_email"
+                            required
+                            class="w-full bg-primary/50 border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent transition-colors" 
+                            placeholder="john@example.com">
+                    </div>
+
+                    <div>
+                        <label for="message" class="block text-sm font-medium text-slate-400 mb-2">Message</label>
+                        <textarea 
+                            id="message" 
+                            name="message"
+                            rows="5"
+                            required
+                            class="w-full bg-primary/50 border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent transition-colors resize-none" 
+                            placeholder="Tell me about your project..."></textarea>
+                    </div>
+
+                    <button 
+                        id="send-btn"
+                        type="submit" 
+                        class="w-full py-4 rounded-lg bg-gradient-to-r from-cyan-400 to-blue-600 text-white font-semibold hover:shadow-lg hover:shadow-cyan-500/25 transition-all flex items-center justify-center gap-2">
+                        <span id="btn-text">SEND MESSAGE</span>
+                        <span id="btn-loading" class="hidden animate-spin border-2 border-white border-t-transparent rounded-full w-5 h-5"></span>
+                    </button>
+
+                    <p id="success-message" class="hidden text-green-400 text-center">
+                        ✔ Message sent successfully!
+                    </p>
+                    <p id="error-message" class="hidden text-red-400 text-center">
+                        ✖ Failed to send message. Please try again.
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-8 bg-primary border-t border-white/5 text-center">
+    <p class="text-slate-500 text-sm">© 2025 Ambady S. All rights reserved.</p>
+</footer>
+
+
 
     <!-- Scripts -->
     <script>
